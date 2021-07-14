@@ -59,3 +59,17 @@ a i{
 .styling p{
   display: block;
 }
+
+@media screen and (max-width: 340px) {
+    button{
+        border: 2px solid grey;
+        padding: 10px;
+        width: 20%;
+        background-color: gray;
+        color: white;
+      }
+      
+      button:hover{
+        background-color: #090920;
+      }
+}
